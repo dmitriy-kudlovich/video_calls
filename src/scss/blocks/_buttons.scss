@@ -1,0 +1,17 @@
+.header__button {
+  margin-right: 20px;
+  padding: 17px 0;
+  width: 185px;
+  border: 1px #fff solid;
+  border-radius: 5px;
+  text-align: center;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.header__button--active {
+  background-color: #fff;
+  color: #5540bf;
+}

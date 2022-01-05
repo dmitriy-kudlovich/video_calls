@@ -1,0 +1,27 @@
+.header__heading {
+  margin-bottom: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.header__text {
+  margin-bottom: 63px;
+  font-size: 20px;
+  line-height: 28px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.header__buttons {
+  margin-bottom: 18px;
+}
+
+.header__text--bottom {
+  width: 86%;
+  font-size: 14px;
+  line-height: 18px;
+}

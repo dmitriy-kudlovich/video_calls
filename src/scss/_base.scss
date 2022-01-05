@@ -1,0 +1,97 @@
+/* Cтили, заданные по умолчанию */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a,
+a:hover,
+a:visited {
+  display: block;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  outline: none;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 172px;
+  max-width: 1440px;
+  min-width: 320px;
+  z-index: 1;
+}
+
+/* // Cтили, заданные по умолчанию */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row--flex-start {
+  justify-content: flex-start;
+}
+
+.row--align-items-center {
+  align-items: center;
+}
+
+.row--align-items-end {
+  align-items: flex-end;
+}
+
+.col {
+  width: 49%;
+}

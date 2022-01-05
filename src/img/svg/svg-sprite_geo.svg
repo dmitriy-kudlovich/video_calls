@@ -1,0 +1,59 @@
+<svg display="none" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- ellipse -->
+    <symbol  viewBox="0 0 121 121" id="ellipse">
+        <g>
+            <circle cx="60.5" cy="60.5" r="60.5"/>
+        </g>
+    </symbol>
+
+    <!-- dots -->
+    <symbol viewBox="0 0 86 70" id="dots">
+        <g>
+            <circle cx="3" cy="3" r="3"/>
+            <circle cx="3" cy="19" r="3"/>
+            <circle cx="3" cy="35" r="3"/>
+            <circle cx="3" cy="51" r="3"/>
+            <circle cx="3" cy="67" r="3"/>
+            <circle cx="19" cy="3" r="3"/>
+            <circle cx="19" cy="19" r="3"/>
+            <circle cx="19" cy="35" r="3"/>
+            <circle cx="19" cy="51" r="3"/>
+            <circle cx="19" cy="67" r="3"/>
+            <circle cx="35" cy="3" r="3"/>
+            <circle cx="35" cy="19" r="3"/>
+            <circle cx="35" cy="35" r="3"/>
+            <circle cx="35" cy="51" r="3"/>
+            <circle cx="35" cy="67" r="3"/>
+            <circle cx="51" cy="3" r="3"/>
+            <circle cx="51" cy="19" r="3"/>
+            <circle cx="51" cy="35" r="3"/>
+            <circle cx="51" cy="51" r="3"/>
+            <circle cx="51" cy="67" r="3"/>
+            <circle cx="67" cy="3" r="3"/>
+            <circle cx="67" cy="19" r="3"/>
+            <circle cx="67" cy="35" r="3"/>
+            <circle cx="67" cy="51" r="3"/>
+            <circle cx="67" cy="67" r="3"/>
+            <circle cx="83" cy="3" r="3"/>
+            <circle cx="83" cy="19" r="3"/>
+            <circle cx="83" cy="35" r="3"/>
+            <circle cx="83" cy="51" r="3"/>
+            <circle cx="83" cy="67" r="3"/>
+        </g>
+    </symbol>
+
+    <!-- rectangle -->
+    <symbol viewBox="0 0 684 903" id="rectangle">
+        <g>
+            <rect x="-22.9033" y="-17.301" width="836.602" height="600" rx="50" transform="rotate(30 -22.9033 -17.301)"/>
+        </g>
+    </symbol>
+
+    <!-- triangle -->
+    <symbol viewBox="0 0 581 464" id="triangle">
+        <g>
+            <path d="M541 35.218C594.333 66.01 594.333 142.99 541 173.782L57.25 453.075C3.91665 483.867 -62.75 445.377 -62.75 383.793L-62.7499 -174.793C-62.7499 -236.377 3.91674 -274.867 57.2501 -244.075L541 35.218Z"/>
+        </g>
+    </symbol>
+</svg>

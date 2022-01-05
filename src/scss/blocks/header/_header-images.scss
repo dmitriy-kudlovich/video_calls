@@ -1,0 +1,168 @@
+.header__images {
+  position: relative;
+  left: 59px;
+  width: 561px;
+}
+
+.header__img {
+  border-radius: 5px;
+}
+
+.header__img-wrapper {
+  width: 242px;
+  z-index: 1;
+}
+
+.header__img-wrapper--top-left {
+  position: relative;
+  top: -26px;
+}
+
+.header__img-wrapper--bottom-right {
+  position: absolute;
+  right: 0;
+  top: 123px;
+}
+
+.header__dots--top {
+  position: absolute;
+  top: -16%;
+  left: -8%;
+}
+
+.header__dots--bottom {
+  position: absolute;
+  bottom: -32%;
+  left: 44%;
+  transform: translateX(-50%);
+}
+
+.dots {
+  margin-right: 22px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.dots--white {
+  fill: #fff;
+}
+
+.dots--yellow {
+  fill: #ffd100;
+}
+
+.header__ellipse-wrapper {
+  position: absolute;
+  right: -4.5%;
+  top: 37.5%;
+  transform: translateY(-50%);
+}
+
+.header__ellipse {
+  fill: #5540bf;
+}
+
+.header__call {
+  position: absolute;
+  top: 15%;
+  left: 41%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 29px 0 26px 0;
+  width: 168px;
+  background-color: #9bd9f9;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+
+  z-index: 2;
+}
+
+.header__camera {
+  margin-bottom: 14px;
+}
+
+.call__time {
+  margin-bottom: 3px;
+  font-size: 20px;
+}
+
+.call__text {
+  font-size: 10px;
+}
+
+.images__contacts {
+  position: absolute;
+  left: 15%;
+  bottom: -23%;
+  padding: 7px 12px 13px 15px;
+  width: 179px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 10px;
+
+  z-index: 2;
+}
+
+.contacts__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  color: #999;
+}
+
+.contacts__hamburger {
+  position: relative;
+  width: 3px;
+  height: 3px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+.contacts__hamburger::after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  display: block;
+  width: 3px;
+  height: 3px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+.contacts__hamburger::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  display: block;
+  width: 3px;
+  height: 3px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+.contacts__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contacts__img-wrapper {
+  margin-right: 19px;
+  width: 42px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.contacts__text {
+  color: #333333;
+  font-size: 10px;
+}
