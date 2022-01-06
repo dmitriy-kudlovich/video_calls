@@ -1,0 +1,61 @@
+.main__group-pics {
+  position: relative;
+  width: fit-content;
+}
+
+.main__group-photos {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main__group-photos::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background: linear-gradient(
+    119.98deg,
+    rgba(51, 51, 51, 0) 35.24%,
+    #333333 98.94%
+  );
+}
+
+.group-photos__row {
+  display: flex;
+}
+
+.group-photos__img-wrapper {
+  width: 134px;
+  height: 200px;
+}
+
+.group-photos__control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  background: rgba(51, 51, 51, 0.5);
+  z-index: 1;
+}
+
+.group-photos__img-messenger {
+  position: absolute;
+  top: 46px;
+  right: -60px;
+  width: 209px;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+  z-index: 2;
+}

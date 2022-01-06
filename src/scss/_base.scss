@@ -25,7 +25,7 @@ a:visited {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   display: block;
   height: auto;
 }
@@ -51,6 +51,8 @@ button {
   font-size: 12px;
   font-weight: 600;
   color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -90,6 +92,15 @@ button:active {
 
 .row--align-items-end {
   align-items: flex-end;
+}
+
+.row--flexible {
+  display: flex;
+  justify-content: space-between;
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 }
 
 .col {

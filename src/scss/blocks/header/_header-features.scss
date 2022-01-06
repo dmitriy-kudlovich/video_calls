@@ -1,0 +1,30 @@
+.header__features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.features__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 50px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border: 2px #fff solid;
+  border-radius: 100px;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in, border-color 0.2s ease-in;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    color: #ffd100;
+    border-color: #ffd100;
+  }
+}

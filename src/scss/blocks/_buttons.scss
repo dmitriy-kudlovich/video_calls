@@ -3,7 +3,6 @@
   padding: 17px 0;
   width: 185px;
   border: 1px #fff solid;
-  border-radius: 5px;
   text-align: center;
 
   &:last-child {
@@ -14,4 +13,14 @@
 .header__button--active {
   background-color: #fff;
   color: #5540bf;
+}
+
+.button--violet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+  width: 230px;
+  background-color: #5540bf;
+  color: #fff;
 }
