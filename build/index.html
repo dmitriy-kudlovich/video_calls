@@ -143,16 +143,34 @@
           <div class="col">
             <div class="main__group-pics">
               <div class="main__group-photos">
-                <div class="group-photos__control"></div>
-                <svg class="control__item" width="30" height="30">
-                  <use xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed"></use>
+                <div class="group-photos__img-wrapper--large"><img src="./img/main/main_photo-large.jpg"/></div>
+                <div class="group-photos__control">
+                  <svg class="control__item" width="30" height="30">
+                    <use xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed"></use>
+                  </svg>
+                  <svg class="control__item" width="30" height="30">
+                    <use xlink:href="./img/svg/svg-sprite_call.svg#callEnd"></use>
+                  </svg>
+                  <svg class="control__item" width="30" height="30">
+                    <use xlink:href="./img/svg/svg-sprite_call.svg#micCrossed"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="group-photos__dots--bottom">
+                <svg class="dots dots--yellow" width="86" height="70">
+                  <use xlink:href="./img/svg/svg-sprite_geo.svg#dots"></use>
                 </svg>
-                <svg class="control__item" width="30" height="30">
-                  <use xlink:href="./img/svg/svg-sprite_call.svg#callEnd"></use>
-                </svg>
-                <svg class="control__item" width="30" height="30">
-                  <use xlink:href="./img/svg/svg-sprite_call.svg#micCrossed"></use>
-                </svg>
+              </div>
+              <div class="group-photos__guest">
+                <p class="guest__text">Пользователь <b>Aleksandr87</b> хочет присоединиться к видеоконференции</p>
+                <div class="guest__guest-desc row row--align-items-center row--flex-start">
+                  <div class="guest__img-wrapper"><img class="guest__img" src="./img/main/main_photo-ellipse.jpg"/></div>
+                  <p class="guest__name">Александр Седельников</p>
+                </div>
+                <div class="row row--flex-end">
+                  <div class="guest__button">Отклонить</div>
+                  <div class="guest__button guest__button--accept">Принять</div>
+                </div>
               </div>
             </div>
           </div>
@@ -160,6 +178,37 @@
             <h2 class="section__heading">Повышенная безопасность</h2>
             <p class="section__text">Защиту соединения обеспечивает технология WebRTC. При желании вы можете выбрать закрытый тип конференции. В таком случае собеседник сможет присоединиться к звонку только после авторизации или через функцию распознавания лица.</p>
             <button class="button--violet">начать конференцию</button>
+          </div>
+        </div>
+        <div class="main__section row--flexible row--align-items-center">
+          <div class="col">
+            <div class="main__group-pics">
+              <div class="main__group-photos not-rounded">
+                <div class="group-photos__img-wrapper--average"><img src="./img/main/main_photo10.jpg" alt="photo"/></div>
+              </div>
+              <div class="video-call">
+                <div class="video-call__img-wrapper overlay--vertical"><img src="./img/main/main_photo9.jpg" alt="photo"/></div>
+                <div class="group-photos__control no-background control--video-call">
+                  <svg class="control__item" width="36" height="36">
+                    <use xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed"></use>
+                  </svg>
+                  <svg class="control__item" width="36" height="36">
+                    <use xlink:href="./img/svg/svg-sprite_call.svg#callEnd"></use>
+                  </svg>
+                  <svg class="control__item" width="36" height="36">
+                    <use xlink:href="./img/svg/svg-sprite_call.svg#micCrossed"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h2 class="section__heading">Удобный доступ с любого устройства</h2>
+            <p class="section__text">VideoApplication не требует установки приложения: просто отправьте ссылку. Ответить на звонок можно прямо из браузера на смартфоне, планшете или компьютере.</p>
+            <div class="row row--flex-start">
+              <button class="header__button button--violet">НАЧАТЬ ЗВОНОК</button>
+              <button class="header__button button--violet-border">КОНФЕРЕНЦИЯ</button>
+            </div>
           </div>
         </div>
       </div>

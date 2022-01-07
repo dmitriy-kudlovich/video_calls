@@ -1,0 +1,24 @@
+.main__section.row--flexible.row--align-items-center
+    .col
+        .main__group-pics
+            .main__group-photos.not-rounded
+                .group-photos__img-wrapper--average
+                    img(src="./img/main/main_photo10.jpg" alt="photo")
+            .video-call
+                .video-call__img-wrapper.overlay--vertical
+                    img(src="./img/main/main_photo9.jpg" alt="photo")
+                .group-photos__control.no-background.control--video-call
+                    svg(width="36" height="36" class="control__item")
+                        use(xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed")
+                    svg(width="36" height="36" class="control__item")
+                        use(xlink:href="./img/svg/svg-sprite_call.svg#callEnd")
+                    svg(width="36" height="36" class="control__item")
+                        use(xlink:href="./img/svg/svg-sprite_call.svg#micCrossed")
+
+            
+    .col
+        h2.section__heading Удобный доступ с любого устройства
+        p.section__text VideoApplication не требует установки приложения: просто отправьте ссылку. Ответить на звонок можно прямо из браузера на смартфоне, планшете или компьютере.
+        .row.row--flex-start
+            button.header__button.button--violet НАЧАТЬ ЗВОНОК
+            button.header__button.button--violet-border КОНФЕРЕНЦИЯ
