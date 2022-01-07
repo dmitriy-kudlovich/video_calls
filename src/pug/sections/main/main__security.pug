@@ -1,31 +1,18 @@
-.main__section.row--flexible.row--align-items-center
+.main__section.row--flexible.row--align-items-center.security
     .col
-        .main__group-pics
-            .main__group-photos
-                .group-photos__img-wrapper--large
-                    img(src="./img/main/main_photo-large.jpg")
-                .group-photos__control
-                    svg(width="30" height="30" class="control__item")
-                        use(xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed")
-                    svg(width="30" height="30" class="control__item")
-                        use(xlink:href="./img/svg/svg-sprite_call.svg#callEnd")
-                    svg(width="30" height="30" class="control__item")
-                        use(xlink:href="./img/svg/svg-sprite_call.svg#micCrossed")
-            .group-photos__dots--bottom
-                svg(width="86" height="70" class="dots dots--yellow")
-                    use(xlink:href="./img/svg/svg-sprite_geo.svg#dots")
-            .group-photos__guest
-                p.guest__text Пользователь 
-                    b Aleksandr87
-                    |  хочет присоединиться к видеоконференции
-                .guest__guest-desc.row.row--align-items-center.row--flex-start
-                    .guest__img-wrapper
-                        img.guest__img(src="./img/main/main_photo-ellipse.jpg")
-                    p.guest__name Александр Седельников
-                .row.row--flex-end
-                    .guest__button Отклонить
-                    .guest__button.guest__button--accept Принять
+        .security__pics
+            .group-pics
+                .group-photos.overlay
+                    .group-photos__img-wrapper--large
+                        img.group-photos__img--large(src="./img/main/main_photo-large.jpg" alt="photo-large")
+                    +call-control("call-control", "30", "30")
+                .group-photos__dots--bottom
+                    svg(width="86" height="70" class="dots dots--yellow")
+                        use(xlink:href="./img/svg/svg-sprite_geo.svg#angle")
+                .main__guest
+                    +guest("Aleksandr87", "Александр Седельников", "main_photo-ellipse.jpg")
     .col
         h2.section__heading Повышенная безопасность
         p.section__text Защиту соединения обеспечивает технология WebRTC. При желании вы можете выбрать закрытый тип конференции. В таком случае собеседник сможет присоединиться к звонку только после авторизации или через функцию распознавания лица.
-        button.button--violet начать конференцию
+        +button("button--violet button--large")
+            | начать конференцию

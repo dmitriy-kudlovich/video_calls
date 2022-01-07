@@ -1,10 +1,11 @@
 .main {
-  padding-top: 170px;
+  padding-top: 181px;
   color: #333333;
 }
 
 .main__section {
-  margin-bottom: 250px;
+  position: relative;
+  margin-bottom: 307px;
 
   &:last-child {
     margin-bottom: 0;
@@ -12,31 +13,26 @@
 }
 
 .section__heading {
-  margin-bottom: 34px;
+  margin-bottom: 35px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.142px;
 }
 
 .section__text {
-  margin-bottom: 43px;
+  margin-bottom: 42px;
+  width: 98%;
   font-size: 18px;
   line-height: 28px;
-  letter-spacing: 0.2px;
 }
 
-.control__item {
-  margin-right: 10px;
-
-  &:last-child {
-    margin-right: 0;
-  }
+.section__text--margine-large {
+  margin-bottom: 71px;
 }
 
-.group-photos__dots--bottom {
+.main__rectangle--wrapper {
   position: absolute;
-  bottom: -9%;
-  left: -9%;
+  fill: rgba(175, 161, 249, 0.3);
 }

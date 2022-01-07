@@ -42,33 +42,6 @@ p {
   list-style-type: none;
 }
 
-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  outline: none;
-  border: none;
-  background-color: transparent;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
-  border-radius: 5px;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-button:focus {
-  outline: none;
-}
-
-button:active {
-  outline: none;
-}
-
 .container {
   position: relative;
   margin: 0 auto;
@@ -113,15 +86,7 @@ button:active {
   width: 49%;
 }
 
-.not-rounded {
-  border-radius: 0 !important;
-}
-
-.no-background {
-  background-color: transparent !important;
-}
-
-.overlay--vertical::after {
+.overlay::after {
   content: "";
   position: absolute;
   top: 0;
@@ -129,6 +94,14 @@ button:active {
   left: 0;
   right: 0;
   display: block;
+  background: linear-gradient(
+    119.98deg,
+    rgba(51, 51, 51, 0) 35.24%,
+    #333333 98.94%
+  );
+}
+
+.overlay--vertical::after {
   background: linear-gradient(
     180deg,
     rgba(51, 51, 51, 0) 60%,

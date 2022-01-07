@@ -1,0 +1,14 @@
+mixin guest(guestNick, guestName, img)
+    .guest
+        p.guest__text Пользователь 
+            b= guestNick
+            |  хочет присоединиться к видеоконференции
+        .guest__guest-desc.row.row--align-items-center.row--flex-start
+            .guest__img-wrapper
+                img.guest__img(src="./img/main/" + img)
+            p.guest__name= guestName
+        .row.row--flex-end
+            +button("guest__button")
+                | Отклонить
+            +button("guest__button guest__button--accept")
+                | Принять

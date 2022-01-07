@@ -1,0 +1,40 @@
+.dots {
+  margin-right: 22px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.dots--white {
+  fill: #fff;
+}
+
+.dots--yellow {
+  fill: #ffd100;
+}
+
+.dots--violet {
+  fill: #5540bf;
+}
+
+.ellipse--violet {
+  fill: #5540bf;
+}
+
+.triangle {
+  fill: rgba(175, 161, 249, 0.1);
+  width: 644px;
+  height: 720px;
+}
+
+.group-photos__dots--bottom {
+  position: absolute;
+  bottom: -11%;
+  left: -10%;
+}
+
+.group-photos__dots--top-left {
+  position: absolute;
+  top: -7.5%;
+  left: -7.5%;
+}

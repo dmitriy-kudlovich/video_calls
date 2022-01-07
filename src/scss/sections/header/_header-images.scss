@@ -37,30 +37,11 @@
   transform: translateX(-50%);
 }
 
-.dots {
-  margin-right: 22px;
-  &:last-child {
-    margin-right: 0;
-  }
-}
-
-.dots--white {
-  fill: #fff;
-}
-
-.dots--yellow {
-  fill: #ffd100;
-}
-
 .header__ellipse-wrapper {
   position: absolute;
   right: -4.5%;
   top: 37.5%;
   transform: translateY(-50%);
-}
-
-.header__ellipse {
-  fill: #5540bf;
 }
 
 .header__call {

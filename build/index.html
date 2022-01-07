@@ -11,7 +11,7 @@
     <header class="header">
       <div class="container">
         <div class="header__triangle-wrapper">
-          <svg class="header__triangle">
+          <svg class="triangle">
             <use xlink:href="./img/svg/svg-sprite_geo.svg#triangle"></use>
           </svg>
         </div>
@@ -24,8 +24,10 @@
               <h1 class="header__heading">Бесплатные видеозвонки для общения без границ</h1>
               <p class="header__text">Для начала звонка отправьте собеседнику ссылку&#8209;приглашение. Общайтесь с коллегами, бизнес&#8209;партнерами и друзьями бесплатно и без ограничений по времени.</p>
               <div class="header__buttons row row--flex-start">
-                <button class="header__button header__button--active">НАЧАТЬ ЗВОНОК</button>
-                <button class="header__button">КОНФЕРЕНЦИЯ</button>
+                <button class="button--white button--white--active">начать звонок
+                </button>
+                <button class="button--white">конференция
+                </button>
               </div>
               <p class="header__text header__text--bottom">Для входа в VideoApplication авторизуйтесь или зарегистрируйтесь в системе.</p>
             </div>
@@ -78,7 +80,7 @@
                   </svg>
                 </div>
                 <div class="header__ellipse-wrapper">
-                  <svg class="header__ellipse" width="121" height="121">
+                  <svg class="ellipse--violet" width="121" height="121">
                     <use xlink:href="./img/svg/svg-sprite_geo.svg#ellipse"></use>
                   </svg>
                 </div>
@@ -102,74 +104,90 @@
     </header>
     <main class="main">
       <div class="container">
-        <div class="main__section row--flexible row--align-items-center">
+        <div class="main__section row--flexible row--align-items-center group-call">
+          <div class="main__rectangle--wrapper">
+            <svg class="main__rectangle" width="684" height="903">
+              <use xlink:href="./img/svg/svg-sprite_geo.svg#rectangle"></use>
+            </svg>
+          </div>
           <div class="col">
-            <div class="main__group-pics">
-              <div class="main__group-photos">
-                <div class="group-photos__row">
-                  <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo1.jpg"/></div>
-                  <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo2.jpg"/></div>
-                  <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo3.jpg"/></div>
-                  <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo4.jpg"/></div>
+            <div class="group-call__pics">
+              <div class="group-pics">
+                <div class="group-photos overlay">
+                  <div class="group-photos__row">
+                    <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo1.jpg"/></div>
+                    <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo2.jpg"/></div>
+                    <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo3.jpg"/></div>
+                    <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo4.jpg"/></div>
+                  </div>
+                  <div class="group-photos__row">
+                    <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo5.jpg"/></div>
+                    <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo6.jpg"/></div>
+                    <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo7.jpg"/></div>
+                    <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo8.jpg"/></div>
+                  </div>
+                  <div class="call-control">
+                    <svg class="control__item" width="30" height="30">
+                      <use xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed"></use>
+                    </svg>
+                    <svg class="control__item" width="30" height="30">
+                      <use xlink:href="./img/svg/svg-sprite_call.svg#callEnd"></use>
+                    </svg>
+                    <svg class="control__item" width="30" height="30">
+                      <use xlink:href="./img/svg/svg-sprite_call.svg#micCrossed"></use>
+                    </svg>
+                  </div>
                 </div>
-                <div class="group-photos__row">
-                  <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo5.jpg"/></div>
-                  <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo6.jpg"/></div>
-                  <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo7.jpg"/></div>
-                  <div class="group-photos__img-wrapper"><img class="group-photos__img" src="./img/main/main_photo8.jpg"/></div>
-                </div>
-                <div class="group-photos__control">
-                  <svg class="control__item" width="30" height="30">
-                    <use xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed"></use>
-                  </svg>
-                  <svg class="control__item" width="30" height="30">
-                    <use xlink:href="./img/svg/svg-sprite_call.svg#callEnd"></use>
-                  </svg>
-                  <svg class="control__item" width="30" height="30">
-                    <use xlink:href="./img/svg/svg-sprite_call.svg#micCrossed"></use>
-                  </svg>
+                <div class="group-call__side-img">
+                  <div class="img-messenger"><img src="./img/main/main_messenger.jpg" alt="messenger"/></div>
                 </div>
               </div>
-              <div class="group-photos__img-messenger"><img src="./img/main/main_messenger.jpg" alt="messenger"/></div>
             </div>
           </div>
           <div class="col">
             <h2 class="section__heading">Больше возможностей для бизнеса с групповыми звонками</h2>
             <p class="section__text">Одновременное участие в конференции до 8 человек, возможность демонстрации экрана, переписка в удобном текстовом чате – в VideoApplication есть все для комфортного обсуждения проектов.</p>
-            <button class="button--violet">начать конференцию</button>
+            <button class="button--violet button--large">начать конференцию
+            </button>
           </div>
         </div>
-        <div class="main__section row--flexible row--align-items-center">
+        <div class="main__section row--flexible row--align-items-center security">
           <div class="col">
-            <div class="main__group-pics">
-              <div class="main__group-photos">
-                <div class="group-photos__img-wrapper--large"><img src="./img/main/main_photo-large.jpg"/></div>
-                <div class="group-photos__control">
-                  <svg class="control__item" width="30" height="30">
-                    <use xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed"></use>
-                  </svg>
-                  <svg class="control__item" width="30" height="30">
-                    <use xlink:href="./img/svg/svg-sprite_call.svg#callEnd"></use>
-                  </svg>
-                  <svg class="control__item" width="30" height="30">
-                    <use xlink:href="./img/svg/svg-sprite_call.svg#micCrossed"></use>
+            <div class="security__pics">
+              <div class="group-pics">
+                <div class="group-photos overlay">
+                  <div class="group-photos__img-wrapper--large"><img class="group-photos__img--large" src="./img/main/main_photo-large.jpg" alt="photo-large"/></div>
+                  <div class="call-control">
+                    <svg class="control__item" width="30" height="30">
+                      <use xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed"></use>
+                    </svg>
+                    <svg class="control__item" width="30" height="30">
+                      <use xlink:href="./img/svg/svg-sprite_call.svg#callEnd"></use>
+                    </svg>
+                    <svg class="control__item" width="30" height="30">
+                      <use xlink:href="./img/svg/svg-sprite_call.svg#micCrossed"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="group-photos__dots--bottom">
+                  <svg class="dots dots--yellow" width="86" height="70">
+                    <use xlink:href="./img/svg/svg-sprite_geo.svg#angle"></use>
                   </svg>
                 </div>
-              </div>
-              <div class="group-photos__dots--bottom">
-                <svg class="dots dots--yellow" width="86" height="70">
-                  <use xlink:href="./img/svg/svg-sprite_geo.svg#dots"></use>
-                </svg>
-              </div>
-              <div class="group-photos__guest">
-                <p class="guest__text">Пользователь <b>Aleksandr87</b> хочет присоединиться к видеоконференции</p>
-                <div class="guest__guest-desc row row--align-items-center row--flex-start">
-                  <div class="guest__img-wrapper"><img class="guest__img" src="./img/main/main_photo-ellipse.jpg"/></div>
-                  <p class="guest__name">Александр Седельников</p>
-                </div>
-                <div class="row row--flex-end">
-                  <div class="guest__button">Отклонить</div>
-                  <div class="guest__button guest__button--accept">Принять</div>
+                <div class="main__guest">
+                  <div class="guest">
+                    <p class="guest__text">Пользователь <b>Aleksandr87</b> хочет присоединиться к видеоконференции</p>
+                    <div class="guest__guest-desc row row--align-items-center row--flex-start">
+                      <div class="guest__img-wrapper"><img class="guest__img" src="./img/main/main_photo-ellipse.jpg"/></div>
+                      <p class="guest__name">Александр Седельников</p>
+                    </div>
+                    <div class="row row--flex-end">
+                      <button class="guest__button">Отклонить
+                      </button>
+                      <button class="guest__button guest__button--accept">Принять
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -177,26 +195,36 @@
           <div class="col">
             <h2 class="section__heading">Повышенная безопасность</h2>
             <p class="section__text">Защиту соединения обеспечивает технология WebRTC. При желании вы можете выбрать закрытый тип конференции. В таком случае собеседник сможет присоединиться к звонку только после авторизации или через функцию распознавания лица.</p>
-            <button class="button--violet">начать конференцию</button>
+            <button class="button--violet button--large">начать конференцию
+            </button>
           </div>
         </div>
-        <div class="main__section row--flexible row--align-items-center">
+        <div class="main__section row--flexible row--align-items-center access">
           <div class="col">
-            <div class="main__group-pics">
-              <div class="main__group-photos not-rounded">
-                <div class="group-photos__img-wrapper--average"><img src="./img/main/main_photo10.jpg" alt="photo"/></div>
-              </div>
-              <div class="video-call">
-                <div class="video-call__img-wrapper overlay--vertical"><img src="./img/main/main_photo9.jpg" alt="photo"/></div>
-                <div class="group-photos__control no-background control--video-call">
-                  <svg class="control__item" width="36" height="36">
-                    <use xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed"></use>
-                  </svg>
-                  <svg class="control__item" width="36" height="36">
-                    <use xlink:href="./img/svg/svg-sprite_call.svg#callEnd"></use>
-                  </svg>
-                  <svg class="control__item" width="36" height="36">
-                    <use xlink:href="./img/svg/svg-sprite_call.svg#micCrossed"></use>
+            <div class="access__pics">
+              <div class="group-pics">
+                <div class="group-photos not-rounded">
+                  <div class="group-photos__img-wrapper--average"><img src="./img/main/main_photo10.jpg" alt="photo"/></div>
+                </div>
+                <div class="access__side-img"> 
+                  <div class="video-call">
+                    <div class="video-call__img-wrapper overlay--vertical"><img src="./img/main/main_photo9.jpg" alt="photo"/></div>
+                    <div class="call-control call-control--no-bg">
+                      <svg class="control__item" width="36" height="36">
+                        <use xlink:href="./img/svg/svg-sprite_call.svg#cameraCrossed"></use>
+                      </svg>
+                      <svg class="control__item" width="36" height="36">
+                        <use xlink:href="./img/svg/svg-sprite_call.svg#callEnd"></use>
+                      </svg>
+                      <svg class="control__item" width="36" height="36">
+                        <use xlink:href="./img/svg/svg-sprite_call.svg#micCrossed"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="group-photos__dots--top-left">
+                  <svg class="dots dots--violet" width="86" height="70">
+                    <use xlink:href="./img/svg/svg-sprite_geo.svg#dots"> </use>
                   </svg>
                 </div>
               </div>
@@ -204,10 +232,12 @@
           </div>
           <div class="col">
             <h2 class="section__heading">Удобный доступ с любого устройства</h2>
-            <p class="section__text">VideoApplication не требует установки приложения: просто отправьте ссылку. Ответить на звонок можно прямо из браузера на смартфоне, планшете или компьютере.</p>
+            <p class="section__text section__text--margine-large">VideoApplication не требует установки приложения: просто отправьте ссылку. Ответить на звонок можно прямо из браузера на смартфоне, планшете или компьютере.</p>
             <div class="row row--flex-start">
-              <button class="header__button button--violet">НАЧАТЬ ЗВОНОК</button>
-              <button class="header__button button--violet-border">КОНФЕРЕНЦИЯ</button>
+              <button class="button--violet">начать звонок
+              </button>
+              <button class="button--violet-border">конференция
+              </button>
             </div>
           </div>
         </div>
