@@ -1,0 +1,22 @@
+.main__section.row--flexible.row--align-items-center
+    .col
+        h2.section__heading Проводите онлайн&#8209;трансляции
+        p.section__text Помимо звонков, вы можете использовать VideoApplication для проведения онлайн-трансляций. Количество зрителей не ограничено.
+        .row.row--flex-start
+            +button("button--white--active")
+                | начать звонок
+    .col
+        .main-bottom__pics
+            .group-pics
+                .group-photos.group-photos--low-radius.underlay.group-photos--shadow-blue
+                    .group-pics__nav
+                        .contacts__hamburger.contacts__hamburger--large.contacts__hamburger--large--left
+                    .group-photos__img-wrapper--largest
+                        img(src="./img/main/main_photo12.jpg" alt="photo")
+                    +call-control("call-control", "32.91", "32.91")
+                    .main-bottom__side-img-wrapper
+                        img(src="./img/main/main_photo11.jpg" alt="photo")
+                .main-bottom__angle--large
+                    svg(width="86" height="102")
+                        use(href="./img/svg/svg-sprite_geo.svg#angleLarge")
+

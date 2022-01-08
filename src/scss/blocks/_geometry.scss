@@ -3,7 +3,7 @@ svg {
 }
 
 .dots {
-  margin-right: 22px;
+  margin-right: 24px;
   &:last-child {
     margin-right: 0;
   }
@@ -23,6 +23,10 @@ svg {
 
 .ellipse--violet {
   fill: #5540bf;
+}
+
+.ellipse--large--blue {
+  fill: #9bd9f980;
 }
 
 .triangle {
@@ -66,7 +70,7 @@ svg {
 
 .group-photos__dots--bottom {
   position: absolute;
-  bottom: -11%;
+  bottom: -10%;
   left: -10%;
 }
 
@@ -118,4 +122,18 @@ svg {
   transform: rotate(45deg);
   right: -2%;
   top: -26.7%;
+}
+
+.main-bottom__angle--large {
+  position: absolute;
+  bottom: -7.5%;
+  left: -8.7%;
+}
+
+.main-bottom__ellipse-wrapper {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(437%, -229%);
+  z-index: -1;
 }

@@ -98,4 +98,37 @@
             <circle cx="3" cy="3" r="3" transform="rotate(180 3 3)" fill="#FFD100"/>
         </g>
     </symbol>
+
+    <!-- angleLarge -->
+    <symbol viewBox="0 0 86 102" xmlns="http://www.w3.org/2000/svg" id="angleLarge">
+        <g>
+            <circle cx="3" cy="35" r="3" fill="#FFD100"/>
+            <circle cx="3" cy="3" r="3" fill="#FFD100"/>
+            <circle cx="3" cy="51" r="3" fill="#FFD100"/>
+            <circle cx="3" cy="19" r="3" fill="#FFD100"/>
+            <circle cx="3" cy="67" r="3" fill="#FFD100"/>
+            <circle cx="3" cy="83" r="3" fill="#FFD100"/>
+            <circle cx="3" cy="99" r="3" fill="#FFD100"/>
+            <circle cx="19" cy="35" r="3" fill="#FFD100"/>
+            <circle cx="19" cy="3" r="3" fill="#FFD100"/>
+            <circle cx="19" cy="51" r="3" fill="#FFD100"/>
+            <circle cx="19" cy="19" r="3" fill="#FFD100"/>
+            <circle cx="19" cy="67" r="3" fill="#FFD100"/>
+            <circle cx="19" cy="83" r="3" fill="#FFD100"/>
+            <circle cx="19" cy="99" r="3" fill="#FFD100"/>
+            <circle cx="35" cy="35" r="3" fill="#FFD100"/>
+            <circle cx="35" cy="3" r="3" fill="#FFD100"/>
+            <circle cx="35" cy="51" r="3" fill="#FFD100"/>
+            <circle cx="35" cy="19" r="3" fill="#FFD100"/>
+            <circle cx="35" cy="67" r="3" fill="#FFD100"/>
+            <circle cx="35" cy="83" r="3" fill="#FFD100"/>
+            <circle cx="35" cy="99" r="3" fill="#FFD100"/>
+            <circle cx="51" cy="83" r="3" fill="#FFD100"/>
+            <circle cx="51" cy="99" r="3" fill="#FFD100"/>
+            <circle cx="67" cy="83" r="3" fill="#FFD100"/>
+            <circle cx="67" cy="99" r="3" fill="#FFD100"/>
+            <circle cx="83" cy="83" r="3" fill="#FFD100"/>
+            <circle cx="83" cy="99" r="3" fill="#FFD100"/>
+        </g>
+    </symbol>
 </svg>

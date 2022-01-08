@@ -15,9 +15,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-a,
-a:hover,
-a:visited {
+a {
   display: block;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
@@ -107,4 +105,16 @@ p {
     rgba(51, 51, 51, 0) 60%,
     rgba(51, 51, 51, 0.5) 100%
   );
+}
+
+.underlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 50%;
+  left: 2px;
+  right: 2px;
+  display: block;
+  background-color: #fff;
+  z-index: -1;
 }

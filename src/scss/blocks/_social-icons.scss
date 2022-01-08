@@ -1,0 +1,9 @@
+.social-icons__link {
+  display: block;
+  padding: 12px 0 2px 5px;
+  margin-right: 13px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

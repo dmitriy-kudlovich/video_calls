@@ -1,5 +1,14 @@
 main.main
     .container
-        include ./main__group-call.pug
-        include ./main__security.pug
-        include ./main__access.pug
+        .main__content
+            include ./main__group-call.pug
+            include ./main__security.pug
+            include ./main__access.pug
+    .main__bottom
+        .main__bottom-content
+            .container
+                include ./main__bottom.pug
+        .main-bottom__ellipse-wrapper
+            svg(width="152" height="152" class="ellipse--large--blue")
+                use(href="./img/svg/svg-sprite_geo.svg#ellipse")
+

@@ -1,6 +1,6 @@
 .header__images {
   position: relative;
-  left: 59px;
+  left: 60px;
   width: 561px;
 }
 
@@ -32,7 +32,7 @@
 
 .header__dots--bottom {
   position: absolute;
-  bottom: -32%;
+  bottom: -31%;
   left: 44%;
   transform: translateX(-50%);
 }
@@ -53,7 +53,7 @@
   align-items: center;
   justify-content: flex-start;
   padding: 29px 0 26px 0;
-  width: 168px;
+  width: 167px;
   background-color: #9bd9f9;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -63,7 +63,7 @@
 }
 
 .header__camera {
-  margin-bottom: 14px;
+  margin-bottom: 19px;
 }
 
 .call__time {
@@ -78,7 +78,7 @@
 .images__contacts {
   position: absolute;
   left: 15%;
-  bottom: -23%;
+  bottom: -23.4%;
   padding: 7px 12px 13px 15px;
   width: 179px;
   background-color: #fff;
@@ -124,6 +124,40 @@
   height: 3px;
   background-color: #c4c4c4;
   border-radius: 50%;
+}
+
+.contacts__hamburger--large {
+  width: 10.97px;
+  height: 10.97px;
+  background: #afa1f980;
+}
+
+.contacts__hamburger--large::after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  display: block;
+  width: 10.97px;
+  height: 10.97px;
+  background: #afa1f980;
+}
+
+.contacts__hamburger--large::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  display: block;
+  width: 10.97px;
+  height: 10.97px;
+  background: #afa1f980;
+}
+
+.contacts__hamburger--large--left::after {
+  left: 22px;
+}
+
+.contacts__hamburger--large--left::before {
+  left: 44px;
 }
 
 .contacts__info {

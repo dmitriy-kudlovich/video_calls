@@ -4,7 +4,7 @@
             use(href="./img/svg/svg-sprite_geo.svg#triangle")
     .col
         .access__pics
-            .group-pics
+            .group-pics.group-photos--no-shadow
                 .group-photos.not-rounded
                     .group-photos__img-wrapper--average
                         img(src="./img/main/main_photo10.jpg" alt="photo")
@@ -15,10 +15,10 @@
                         +call-control("call-control call-control--no-bg", "36", "36")
                 .group-photos__dots--top-left
                     svg(width="86" height="70" class="dots dots--violet")
-                        use(xlink:href="./img/svg/svg-sprite_geo.svg#dots")  
+                        use(href="./img/svg/svg-sprite_geo.svg#dots")  
     .col
         h2.section__heading Удобный доступ с любого устройства
-        p.section__text.section__text--margine-large VideoApplication не требует установки приложения: просто отправьте ссылку. Ответить на звонок можно прямо из браузера на смартфоне, планшете или компьютере.
+        p.section__text.section__text--margin-large VideoApplication не требует установки приложения: просто отправьте ссылку. Ответить на звонок можно прямо из браузера на смартфоне, планшете или компьютере.
         .row.row--flex-start
             +button("button--violet")
                 | начать звонок
