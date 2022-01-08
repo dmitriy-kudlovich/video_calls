@@ -1,7 +1,10 @@
 .main__section.row--flexible.row--align-items-center.group-call
-    .main__rectangle--wrapper
-        svg(width="684" height="903" class="main__rectangle")
-            use(xlink:href="./img/svg/svg-sprite_geo.svg#rectangle")
+    .main__rectangle--wrapper.rectangle--rotate
+        svg(class="rectangle")
+            use(href="./img/svg/svg-sprite_geo.svg#rectangle")
+    .main__triangle-wrapper
+            svg(class="triangle--small")
+                use(href="./img/svg/svg-sprite_geo.svg#triangle" )
     .col
         .group-call__pics
             .group-pics

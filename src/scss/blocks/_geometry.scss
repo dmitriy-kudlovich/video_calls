@@ -1,3 +1,7 @@
+svg {
+  display: block;
+}
+
 .dots {
   margin-right: 22px;
   &:last-child {
@@ -27,6 +31,39 @@
   height: 720px;
 }
 
+.triangle--small {
+  width: 231px;
+  height: 231px;
+}
+
+.triangle--large {
+  width: 774px;
+  height: 870px;
+}
+
+.rectangle {
+  width: 836.6px;
+  height: 600px;
+  fill: rgba(175, 161, 249, 0.3);
+}
+
+.rectangle--rotate {
+  transform: rotate(30deg);
+}
+
+.square {
+  width: 639.89px;
+  height: 600px;
+  fill: rgba(175, 161, 249, 0.3);
+}
+
+.square--small {
+  width: 130px;
+  height: 130px;
+  fill: #afa1f9;
+  border-radius: 20px;
+}
+
 .group-photos__dots--bottom {
   position: absolute;
   bottom: -11%;
@@ -37,4 +74,48 @@
   position: absolute;
   top: -7.5%;
   left: -7.5%;
+}
+
+.header__triangle-wrapper {
+  position: absolute;
+  top: -296px;
+  left: -63px;
+  z-index: -1;
+}
+
+.main__rectangle--wrapper {
+  position: absolute;
+  left: -36.5%;
+  top: -44.5%;
+  fill: rgba(175, 161, 249, 0.3);
+  z-index: 0;
+}
+
+.main__triangle-wrapper--large {
+  position: absolute;
+  top: -168px;
+  left: -263px;
+  transform: rotate(0deg);
+  z-index: -1;
+}
+
+.main__triangle-wrapper {
+  position: absolute;
+  left: -10.9%;
+  top: 88.9%;
+  transform: rotate(60deg);
+  fill: #afa1f9;
+}
+
+.main__square-wrapper {
+  position: absolute;
+  right: -29.3%;
+  top: -59.7%;
+}
+
+.main__square-wrapper--small {
+  position: absolute;
+  transform: rotate(45deg);
+  right: -2%;
+  top: -26.7%;
 }
