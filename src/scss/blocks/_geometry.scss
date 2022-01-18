@@ -137,3 +137,7 @@ svg {
   transform: translate(437%, -229%);
   z-index: -1;
 }
+
+.geometry {
+  transition: transform 0.2s;
+}
