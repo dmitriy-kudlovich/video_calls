@@ -1,7 +1,10 @@
 .header__images {
   position: relative;
-  left: 60px;
-  width: 561px;
+
+  @media (min-width: 1440px) {
+    left: 60px;
+    width: 561px;
+  }
 }
 
 .header__img {
@@ -9,8 +12,12 @@
 }
 
 .header__img-wrapper {
-  width: 242px;
+  width: 45%;
   z-index: 1;
+
+  @media (min-width: 1440px) {
+    width: 242px;
+  }
 }
 
 .header__img-wrapper--top-left {
@@ -79,13 +86,18 @@
   position: absolute;
   left: 15%;
   bottom: -23.4%;
-  padding: 7px 12px 13px 15px;
-  width: 179px;
+  padding: 3px 6px 6.5px 7.5px;
+  width: 33.33%;
   background-color: #fff;
   border-radius: 10px;
   font-size: 10px;
 
   z-index: 2;
+
+  @media (min-width: 1440px) {
+    padding: 7px 12px 13px 15px;
+    width: 179px;
+  }
 }
 
 .contacts__top {
@@ -171,10 +183,15 @@
 }
 
 .contacts__img-wrapper {
-  margin-right: 19px;
-  width: 42px;
+  margin-right: 10.6%;
+  width: 23.46%;
   border-radius: 50%;
   overflow: hidden;
+
+  @media (min-width: 1440px) {
+    margin-right: 19px;
+    width: 42px;
+  }
 }
 
 .contacts__text {

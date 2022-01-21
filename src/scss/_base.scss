@@ -43,10 +43,14 @@ p {
 .container {
   position: relative;
   margin: 0 auto;
-  padding: 0 172px;
+  padding: 0 15px;
   max-width: 1440px;
   min-width: 320px;
   z-index: 1;
+
+  @media (min-width: 1440px) {
+    padding: 0 172px;
+  }
 }
 
 /* // Cтили, заданные по умолчанию */
@@ -72,16 +76,21 @@ p {
 }
 
 .row--flexible {
-  display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 
-  &:nth-child(even) {
-    flex-direction: row-reverse;
+  @media (min-width: 1440px) {
+    flex-direction: row;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
   }
 }
 
 .col {
-  width: 49%;
+  @media (min-width: 1440px) {
+    width: 49%;
+  }
 }
 
 .overlay::after {
@@ -117,4 +126,8 @@ p {
   display: block;
   background-color: #fff;
   z-index: -1;
+}
+
+.none {
+  display: none;
 }

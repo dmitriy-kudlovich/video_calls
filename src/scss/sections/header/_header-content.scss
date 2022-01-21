@@ -5,9 +5,15 @@
 .header__heading {
   margin-bottom: 36px;
   font-family: "Montserrat", sans-serif;
-  font-size: 46px;
+  font-size: 39px;
   font-weight: 700;
   line-height: 52px;
+  text-align: center;
+
+  @media (min-width: 1440px) {
+    font-size: 46px;
+    text-align: left;
+  }
 }
 
 .header__text {
